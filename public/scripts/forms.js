@@ -6,16 +6,8 @@ loginInputs.forEach(input => {
   // check if input is price type and, if so, import Simple Mask Money according to its documentation
   if (input.dataset.type === 'price') {
     SimpleMaskMoney.setMask(input, {
-      // afterFormat(e) {
-      //   console.log('afterFormat', e)
-      // },
-      // allowNegative: false,
-      // beforeFormat(e) {
-      //   console.log('beforeFormat', e)
-      // },
-      // negativeSignAfter: false,
+      
       prefix: 'R$ ',
-      // suffix: '',
       fixed: true,
       fractionDigits: 2,
       decimalSeparator: ',',
