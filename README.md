@@ -2,8 +2,6 @@
 
 <div id='top'></div>
 
-_[Read it in English](#English)_
-
 ## Olá!
 
 Bem-vindo(a) ao repositório do **Alura Geek**! Aqui você encontrará o código-fonte de uma página de e-commerce para uma loja online de produtos geek, desenvolvida como parte do 3º Desafio Front-End exclusivo para alunos da Alura.
